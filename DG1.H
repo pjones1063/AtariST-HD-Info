@@ -1,0 +1,12 @@
+#define SPC1 6
+#define BPS1 5
+#define DG1 0
+#define BT1 1
+#define CPD1 4
+#define C_NAME 2
+#define DNAME 7
+#define FREE2 8
+#define BPS2 10
+#define CPD2 9
+#define SPC2 11
+#define FREE1 3
