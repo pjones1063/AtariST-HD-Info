@@ -1,3 +1,6 @@
 # AtariST-HD-Info
-# Simple GEM 16 bit C program to list disk details
-# 
+### An Example Atari ST C program to demonstrate GEM/AES using a resource file. 
+
+Display disk information on Atari 16-bit ST
+
+
