@@ -37,9 +37,9 @@ int work_in[11],
 /* disk info array */
 struct diskinfo {
   unsigned long free,
-				cpd,
-				bps,
-				spc;
+		cpd,
+		bps,
+		spc;
 };
 
 /* disk info array */
@@ -51,12 +51,10 @@ struct diskinfos {
 	    spc[10];
 };
 
-
 /* Global variables */
 int handle, dum, drive_map;
 int x, y, w, h, n_x, n_y; 
 OBJECT * dialog; 
-
 
 /* set the text object value */
 int setText(int i, char * value) 
@@ -76,7 +74,6 @@ int setDiskInfo(struct diskinfos * dis, int disk) {
    setText(bpsc[disk], dis->bps);
    return 1;
 }	
-
 
 /* get info for one hard disk */
 struct diskinfos getDiskInfo(int disk) 
