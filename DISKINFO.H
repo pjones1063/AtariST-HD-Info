@@ -1,6 +1,5 @@
 #define DG1 0
 #define FRE2 7
-#define FRE1 2
 #define CPD3 13
 #define CPD1 4
 #define CPD2 9
@@ -64,4 +63,5 @@
 #define SPCC 85
 #define SPCB 84
 #define SPCD 86
+#define FRE1 2
 #define BT1 16
